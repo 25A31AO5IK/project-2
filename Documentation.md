@@ -60,29 +60,7 @@ Repeat until exit
 Save tasks to file
 End
 ## Flowchart
-## 📊 To-Do List Flowchart
-
-```mermaid
-flowchart TD
-    A[Start] --> B[Display Menu]
-    B --> C[Enter Choice]
-
-    C --> D{Choice == 1?}
-    D -- Yes --> E[Add Task]
-    E --> B
-
-    D -- No --> F{Choice == 2?}
-    F -- Yes --> G[View Tasks]
-    G --> B
-
-    F -- No --> H{Choice == 3?}
-    H -- Yes --> I[Delete Task]
-    I --> B
-
-    H -- No --> J{Choice == 4?}
-    J -- Yes --> K[End]
-
-    J -- No --> B
+<img width="213" height="236" alt="image" src="https://github.com/user-attachments/assets/1d20573c-4b1f-4a63-975b-40541b493e15" />
 
 ## File Handling
 File used: tasks.txt
